@@ -403,6 +403,7 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security \
 		   -Werror \
 		   -std=gnu89 \
+		   -mtune=cortex-a72.cortex-a53 \
 		   -Wno-misleading-indentation -Wno-logical-not-parentheses -Wno-array-bounds -Wno-tautological-compare -Wno-bool-compare -Wno-switch-bool -Wno-unused-variable
 
 KBUILD_AFLAGS_KERNEL :=
