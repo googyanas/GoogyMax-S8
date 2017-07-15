@@ -9,6 +9,17 @@ dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-universal8895_d2_rev00.dtb
 dtb-$(CONFIG_SOC_EMULATOR8895) += emulator8895-emulator8895.dtb
 dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-universal8895_d1_rev01.dtb
 
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_00.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_01.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_02.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_03.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_04.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_05.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_07.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_08.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_09.dtb
+dtb-$(CONFIG_SOC_EXYNOS8895) += exynos8895-dreamlte_eur_open_10.dtb
+
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
 clean-files	:= *.dtb
