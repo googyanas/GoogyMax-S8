@@ -34,6 +34,8 @@ bool selinux_is_enforcing(void)
 // [ SEC_SELINUX_PORTING_COMMON
 #ifdef CONFIG_ALWAYS_ENFORCE
 	return true;
+#elif defined(CONFIG_SELINUX_NEVER_ENFORCE)
+	return false;
 #else
 	return selinux_enforcing;
 #endif

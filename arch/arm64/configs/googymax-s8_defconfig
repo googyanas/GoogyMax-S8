@@ -5,6 +5,9 @@
 #
 ### GOOGYMAX-S8 ###
 #
+# CONFIG_ALWAYS_ENFORCE is not set
+CONFIG_SELINUX_NEVER_ENFORCE=y
+#
 ###################
 CONFIG_ARM64=y
 CONFIG_64BIT=y

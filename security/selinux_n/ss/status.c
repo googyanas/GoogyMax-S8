@@ -61,6 +61,8 @@ struct page *selinux_kernel_status_page(void)
 // [ SEC_SELINUX_PORTING_COMMON
 #ifdef CONFIG_ALWAYS_ENFORCE
 			status->enforcing = 1;
+#elif defined(CONFIG_SELINUX_NEVER_ENFORCE)
+			status->enforcing = 0;
 #else
 			status->enforcing = selinux_enforcing;
 #endif
